@@ -18,7 +18,9 @@ public class Account {
 	    @JoinColumn(name = "user_id")
 	    private User user;
 
-	 
+	 public Account()
+	 {
+	 }
 	
 	public Account(Long accountNumber, Double accountBalance) {
 		super();
